@@ -1,0 +1,96 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+  color: #515151;
+}
+.top-title,.index-heading,.index-section-heading,.show-section,.edit-heading,.always-apply {
+  color: black;
+  font-family: "Arial" ;
+}
+
+.flash-message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0px;
+  background-color: #bcdfff;
+  color: #0067C0;
+  border: solid 1px #0067C0;
+}
+
+.error-message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0px;
+  background-color: #ffd4d1;
+  color: #930403;
+  border: solid 1px #930403;
+}
+
+.field-with-errors {
+  border: 5px solid #930403;
+}
+
+.label-error {
+  color: #930403;
+  font-weight: bold;
+}
+
+.top-title {
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.top-paragraph {
+  padding-bottom: 20px;
+}
+.top-contents {
+  margin: 30px;
+}
+.link-class {
+  transition: 0.3s;
+  color: #202020;
+}
+.link-class:visited {
+  color: #717171;
+}
+.link-class:hover {
+  color: #ff7043;
+}
+.index-heading {
+  padding-bottom: 10px;
+}
+.index-new-book {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.index-contents {
+  padding: 5px;
+}
+.index-section {
+  margin: 10px;
+}
+.show-section {
+  padding: 20px;
+}
+.edit-heading {
+  margin-bottom: 20px
+}

@@ -1,0 +1,18 @@
+<table>
+  <tbody>
+    <tr>
+      <th class="show-section">Title:</th>
+      <td><%= @book.title %></td>
+    </tr>
+    <tr>
+      <th class="show-section">Body:</th>
+      <td><%= @book.body %></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <%= link_to 'Edit', edit_book_path(@book.id), class: "link-class" %> |
+        <%= link_to 'Back', books_path, class: "link-class" %>
+      </td>
+    </tr>
+  </tbody>
+</table>
